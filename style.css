@@ -35,6 +35,7 @@ h1{
 }
 .line h1{
     color:coral;
+     /* background: linear-gradient(to bottom, rgb(81, 200, 255), white); */
 }
 
 .but{
@@ -51,6 +52,7 @@ h1{
 }
 .but:hover{
     background-color: blue;
+    transition-duration: 3s;
 }
 
 .photo{
@@ -59,6 +61,7 @@ h1{
     bottom: 320px;
     border: 10px solid burlywood;
     border-radius: 10px;
+   
 }
 .about{
     padding-top: 100px;
@@ -147,8 +150,13 @@ h1{
     width: 390px;
     margin-left: 750px;
     margin-top: 25px;
-    background-color: darkgray;
+    background-color: #d8f9ff;
 }
+.but1:hover{
+    background-color: blue;
+    transition-duration: 3s;
+}
+
 .footer{
     background-color: yellowgreen; 
     height: 70px;
