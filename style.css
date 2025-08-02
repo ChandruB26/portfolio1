@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
 }
+/* header start */
 .menu ul{
     display: flex;
     text-align: center;
@@ -23,7 +24,23 @@
     font-weight: bold;
 
 }
-
+/* header responsive sight */
+@media(max-width: 425px)
+{
+    .menu ul{
+        gap: 10PX;
+        padding-left: 0px;
+        height: auto;
+    }
+    .menu ul li{
+        margin-left: 0px;
+        padding-top: 10px;
+    }
+    .menu ul li a{
+        font-size: 15px;
+    }
+}
+/* header end */
 .line{
     margin-left: 800px;
     padding-top: 150px;
@@ -58,10 +75,17 @@ h1{
 .photo{
     margin-left: 120px;
     position: absolute;
-    bottom: 320px;
+    bottom: 240px;
     border: 10px solid burlywood;
     border-radius: 10px;
    
+}
+
+.photo :hover {
+  filter: grayscale(0%) brightness(1.2);
+  box-shadow: 0 0 25px 8px rgba(255, 255, 255, 0.7);
+  border-color: #fff;
+  transition: all 0.5s ease-in-out;
 }
 .about{
     padding-top: 100px;
@@ -85,6 +109,13 @@ h1{
     width: 1200px;
     padding: 15px;
 }
+
+.para :hover {
+  filter: grayscale(0%) brightness(1.2);
+  box-shadow: 0 0 25px 8px rgba(7, 28, 218, 0.7);
+  border-color: #fff;
+  transition: all 0.5s ease-in-out;
+}
 .skil h1{
     text-align: center;
     padding-top: 30px;
@@ -106,6 +137,12 @@ h1{
      border-radius: 8px;
      padding: 6px;
 }
+.train{
+    padding-top: 100px;
+    margin-left: 850px;
+    justify-content: center;
+    font-size: 30px;
+}
 .paragraph h3{
     margin-left: 600px;
     font-weight: bolder;
@@ -123,6 +160,19 @@ h1{
     width: 1600px;
     margin-left: 120px;
 }
+.paragraph:hover {
+  filter: grayscale(0%) brightness(1.2);
+  box-shadow: 0 0 25px 8px rgba(7, 176, 12, 0.7);
+  border-color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+.contact{
+    padding-top: 100px;
+    margin-left: 800px;
+    justify-content: center;
+    font-size: 30px;
+}
+
 
 .box{
     margin-left: 750px;
